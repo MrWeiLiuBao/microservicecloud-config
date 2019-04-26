@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name:config-center-cloud
+    name: config-cloud-test
 eureka:
   client:
     service-url:
@@ -19,7 +19,7 @@ server:
 spring:
   profiles: test
   application:
-    name:config-center-cloud
+    name: config-cloud-test
 eureka:
   client:
     service-url:
